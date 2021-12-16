@@ -1,0 +1,42 @@
+<div class="container my-2">
+    <div class="card p-2">
+        <div class="d-flex justify-content-between py-3">
+            <div class="image">
+                <img src="https://www.swedbank.lt/webjars/webcomponents/2.2.7/assets/images/swedbank-logo.svg"
+                    alt="SwebBacnk" width="200" height="50">
+            </div>
+            <div class="mortgage-header fw-bold p-2" style="color: #ee7023">
+                <h3>
+                    Mortgage Loan Form
+                </h3>
+                <!-- <span>Welcome {{fullName}}</span> -->
+            </div>
+
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
+        </div>
+
+    <div class="apllicantSupport col-md-6 my-3">
+        <label for="">How do you wish to make your application?</label>
+        <select required ngModel name="apllicantSupport" class="form-control">
+            <option>Apply with Co-applicant</option>
+            <option>More than one dependant in Family</option>
+    
+        </select>
+    </div>
+        <div class="loanAmount col-md-6 my-3">
+            <label for="">What is the Loan Amount You are requesting?(In dollars)</label>
+            <input required ngModel name="loanAmount" type="number" class="form-control">
+        </div>
+
+
+                <div>
+                    <button class="btn my-2"><i class='fa fa-chevron-left fa-2x' aria-hidden="true"
+                            routerLink="/quizTwo"></i></button>
+                    <button class="btn fw-bold " style="color: #ee7023" routerLink="/quizFour">Next</button>
+                    <button class="btn my-2"><i class='fa fa-chevron-right fa-2x' aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>

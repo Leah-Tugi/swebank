@@ -1,0 +1,36 @@
+{
+    "questions": [{
+            "questionText": "What is You Annual salary?",
+            "answer": [{
+                    "text": ""
+                    
+                }
+            ]
+        },
+        {
+            "questionText": "What is the estimate size of your property",
+            "answer": [{
+                    "text": ""
+                    
+                }
+            ]
+        },
+        {
+            "questionText": "Tell us about yourself",
+            "answer": [{
+                    "text": ""
+                    
+                }
+            ]
+        },
+        {
+            "questionText": "A great solution if you need to renovate your home, buy new furniture or repair your car.Borrow from 500 to 20000 euros !",
+            "answer": [{
+                    "text": ""
+                    
+                }
+            ]
+        }
+
+    ]
+}

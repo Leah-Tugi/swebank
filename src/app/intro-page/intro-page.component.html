@@ -1,0 +1,30 @@
+<div class="container bg-light py-4" style="background-color: #d4c4bc">
+    <h1 class="display5 fw-bold py-2" style="color: #ee7023">Mortgage Loan</h1>
+    <h1 class="display5 fw-bold">Welcome to SwedBank Mortgage Loan</h1>
+
+    <p class ="col-md-8 fs-4">Fill out the form provided below correctly in order to determine to mortgage value for your property. Home loan will be a perfect solution if you need a loan for a new home, serious renovation or construction.
+    </p>
+    <ul> <li>Fast application processing</li>
+    <li> to pay back earlier and manage your contract via Internet Banking</li>
+    <li> constantly offer discounts for home loans, when you receive the discount code from the seller and, please, do not
+    forget to submit it completing the application for the home loan in the Internet Bank.</li></ul>
+
+<p>The loan must be secured by mortgage of real estate acceptable to the bank. Please note, that by using these financing
+services, you are assuming financial obligations. Improper fulfilment or non-fulfilment of financial obligations may
+have a negative impact on your credit history and make borrowing more expensive; you also risk losing ownership rights
+to the mortgaged real estate.</p>
+
+<div class="name col-md-6 my-3">
+    <label for= "">Enter Your Full Name</label>
+    <input required ngModel #fullName name="fullName" type=" text" class="form-control">
+    </div>
+    <div class="email col-md-6 my-3">
+        <label for="">Enter Your Email</label>
+        <input  required ngModel #userEmail name="userEmail" type="email" class="form-control">
+    </div>
+    <div class="phone col-md-6 my-3">
+        <label for="">Your Phone Number</label>
+        <input required ngModel #phoneNumber name="phoneNumber" type="number" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg col-md-4" routerLink="/detailsPage" (click)="fillForm()"> Submit</button>
+</div>
